@@ -2,7 +2,7 @@ import React from 'react'
 
 const Step = ({step, setStep, name, id1, id2, label1, label2, value1, value2, setValue1, setValue2}) => {
   return (
-    <div>
+    <div id={`step${step}`}>
         <p>{name}</p>
         <div>
             <label htmlFor={id1}>{label1}</label>
